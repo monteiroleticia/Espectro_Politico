@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+hr {
+    width: 30vw;
+    margin: 20px auto;
+}
+
+body {
+    background-color: #ffd105;
+}
+
+main {
+    width: 50vw;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 50px;
+    padding-top: 20px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+a {
+    text-decoration: none;
+    font: inherit;
+    font-size: inherit; 
+    color: inherit; 
+    font-weight: bold;
+}
+
+a:hover {
+
+    color: #54b948;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom: -20px;
+    /* position: absolute;
+    top: -5px;
+    right: 50%; */
+}
+
+h5 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.pHeader{
+    margin: 30px;
+    margin-top: 10px;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    background-color:#654b7f;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color:#8967ac;
+}
+
+
+fieldset {
+    border: none;
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+
+.polChart {
+    background-image: url('../img/carto.png');
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 400px;
+    height: 400px;
+    position:relative;
+    margin: 60px auto;
+}
+
+.positionContainer {
+    position: relative;
+    width: 380px;
+    height: 390px;
+    margin: 0 auto;
+    
+}
+
+
+.position {
+    position: absolute; 
+    border-radius: 50%;
+
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    right: 113%;
+    z-index: 99;
+    transform: translate(50%, -50%);
+    line-height: 0px;
+    text-align: right;
+}
+
+
+.cont{
+    font-weight: lighter;
+}
+
+.axis{
+    font-weight: bold; 
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: -13%;
+    z-index: 99;
+    transform: translate(50%, -50%);
+    line-height: 0px;
+    text-align: left;
+}
+
+.aut {
+    position: absolute;
+    top: -5%;
+    right: 50%;
+    z-index: 99;
+    transform: translate(50%, -50%);
+    line-height: 0px;
+    text-align: center;
+}
+
+.lib {
+    position: absolute;
+    top: 105%;
+    right: 50%;
+    z-index: 99;
+    transform: translate(50%, -50%);
+    line-height: 0px;
+    text-align: center;
+}
